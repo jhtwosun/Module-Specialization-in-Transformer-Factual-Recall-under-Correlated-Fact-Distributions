@@ -1,0 +1,26 @@
+{
+  "experiment": "two_hop",
+  "model": "offline-smoke",
+  "random_init": true,
+  "seeds": [
+    0
+  ],
+  "motifs": [
+    "independent"
+  ],
+  "steps": 3,
+  "batch_size": 4,
+  "eval_examples": 8,
+  "pairs": 4,
+  "n_subjects": 8,
+  "n_relations": 4,
+  "n_answers": 8,
+  "n_noise": 4,
+  "sequence_length": 6,
+  "source_layers": [
+    0
+  ],
+  "target_layers": [
+    2
+  ]
+}

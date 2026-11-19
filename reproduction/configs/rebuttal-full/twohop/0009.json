@@ -1,0 +1,20 @@
+{
+  "task": "direct_control",
+  "seed": 1,
+  "steps": 8000,
+  "batch_size": 128,
+  "n_subjects": 32,
+  "n_entities": 32,
+  "n_relations": 16,
+  "answers": 64,
+  "d_model": 128,
+  "layers": 4,
+  "length": 16,
+  "heads": 4,
+  "n_noise": 64,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "eval_samples": 4096,
+  "pairs": 200,
+  "checkpoint_every": 1000
+}

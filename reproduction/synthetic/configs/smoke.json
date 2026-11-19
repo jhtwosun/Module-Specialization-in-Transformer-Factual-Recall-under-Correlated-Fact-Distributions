@@ -1,0 +1,8 @@
+{
+  "n_subjects": 8, "n_relations": 4, "answers": 8, "n_noise": 4,
+  "length": 6, "d_model": 16, "heads": 4, "layers": 2,
+  "motif": "subject", "collision": 2, "seed": 0,
+  "steps": 3, "probe_steps": 2, "batch_size": 8,
+  "eval_samples": 32, "mean_samples": 16, "pairs": 8,
+  "checkpoint_every": 2
+}

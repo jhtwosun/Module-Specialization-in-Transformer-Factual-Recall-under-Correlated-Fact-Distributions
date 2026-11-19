@@ -1,0 +1,17 @@
+{
+  "experiment": "natural_counterfact",
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "revision": "9213176726f574b556790deb65791e0c5aa438b6",
+  "local_files_only": true,
+  "seeds": [
+    2
+  ],
+  "dataset_path": "/lustre/fsw/portfolios/coreai/projects/coreai_devtech_all/users/dongjael/memory/reproduction/datasets/counterfact.json",
+  "relations": [
+    "P495"
+  ],
+  "max_facts": 100,
+  "pairs_per_fact": 20,
+  "max_pairs_total": 2000,
+  "min_module_effect_pp": 1
+}

@@ -1,0 +1,11 @@
+# Synthetic training and evaluation (E01-E13).
+# torch must be installed separately with the correct CUDA version for your GPU.
+# Example: pip install torch==2.5.1+cu124 --index-url https://download.pytorch.org/whl/cu124
+torch>=2.0
+
+# Pretrained-model experiments (E09, E11, E14, R07).
+# Install these only when running the pretrained families.
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors==0.5.3
+huggingface-hub==0.30.2

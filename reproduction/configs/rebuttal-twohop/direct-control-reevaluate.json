@@ -1,0 +1,21 @@
+{
+  "answers": 64,
+  "batch_size": 128,
+  "checkpoint_every": 1000,
+  "d_model": 128,
+  "eval_samples": 4096,
+  "heads": 4,
+  "layers": 4,
+  "length": 16,
+  "lr": 0.001,
+  "n_entities": 32,
+  "n_noise": 64,
+  "n_relations": 16,
+  "n_subjects": 32,
+  "pairs": 200,
+  "seed": 0,
+  "steps": 8000,
+  "task": "direct_control",
+  "weight_decay": 0.01,
+  "checkpoint_path": "/lustre/fsw/portfolios/coreai/projects/coreai_devtech_all/users/dongjael/memory/reproduction/runs/rebuttal-twohop-001/cells/00001/checkpoint.pt"
+}

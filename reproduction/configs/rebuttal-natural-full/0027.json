@@ -1,0 +1,17 @@
+{
+  "experiment": "natural_counterfact",
+  "model": "EleutherAI/pythia-2.8b",
+  "revision": "2a259cdd96a4beb1cdf467512e3904197345f6a9",
+  "local_files_only": true,
+  "seeds": [
+    0
+  ],
+  "dataset_path": "/lustre/fsw/portfolios/coreai/projects/coreai_devtech_all/users/dongjael/memory/reproduction/datasets/counterfact.json",
+  "relations": [
+    "P131"
+  ],
+  "max_facts": 100,
+  "pairs_per_fact": 20,
+  "max_pairs_total": 2000,
+  "min_module_effect_pp": 1
+}
